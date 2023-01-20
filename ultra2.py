@@ -47,6 +47,6 @@ if distancia > 2 and distancia < 400:      #Comprueba si la distancia está dent
   print ("Distancia: ",distancia,"cm")     #Imprime la distancia 
 
 else:
-  print "Fuera de Rango"                   #Imprime fuera de rango
+  print ("Fuera de Rango")                   #Imprime fuera de rango
 
 GPIO.cleanup()	
